@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4DDB4EA28A48D3C004CBFEB /* AcademicMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB4E928A48D3C004CBFEB /* AcademicMLApp.swift */; };
+		F45D103928B1996700263FC2 /* HtmlCG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45D103828B1996700263FC2 /* HtmlCG.swift */; };
+		F45D103B28B1A4DB00263FC2 /* CompilerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45D103A28B1A4DB00263FC2 /* CompilerData.swift */; };
+		F472358528A876A300C7A44A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472358428A876A300C7A44A /* Result.swift */; };
+		F472358828A88D3E00C7A44A /* RefBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472358728A88D3E00C7A44A /* RefBox.swift */; };
+		F4831B8328B2FDDC00E9E7F0 /* CompilerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4831B8228B2FDDC00E9E7F0 /* CompilerAPI.swift */; };
+		F4877F8728B2B49400C063BC /* LatexCG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4877F8628B2B49400C063BC /* LatexCG.swift */; };
+		F4877F8928B2B8B600C063BC /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4877F8828B2B8B600C063BC /* Core.swift */; };
+		F49B99FC28A9742E009DA13B /* TextEditorMisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B99FB28A9742E009DA13B /* TextEditorMisc.swift */; };
+		F49B9A0028AC2A3E009DA13B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B99FF28AC2A3E009DA13B /* UIColor.swift */; };
+		F49B9A0228AC2CAB009DA13B /* MathUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B9A0128AC2CAB009DA13B /* MathUtil.swift */; };
+		F49B9A0A28AD65C2009DA13B /* Frontend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B9A0928AD65C2009DA13B /* Frontend.swift */; };
+		F49B9A0E28AD7136009DA13B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B9A0D28AD7136009DA13B /* Parser.swift */; };
+		F49B9A1028AD71CF009DA13B /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B9A0F28AD71CF009DA13B /* Highlight.swift */; };
+		F49B9A1428ADB1D1009DA13B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B9A1328ADB1D1009DA13B /* Optional.swift */; };
+		F4DDB4EA28A48D3C004CBFEB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB4E928A48D3C004CBFEB /* Main.swift */; };
 		F4DDB4EC28A48D3C004CBFEB /* AcademicMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB4EB28A48D3C004CBFEB /* AcademicMLDocument.swift */; };
-		F4DDB4EE28A48D3C004CBFEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB4ED28A48D3C004CBFEB /* ContentView.swift */; };
 		F4DDB4F028A48D3E004CBFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DDB4EF28A48D3E004CBFEB /* Assets.xcassets */; };
 		F4DDB4F328A48D3E004CBFEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DDB4F228A48D3E004CBFEB /* Preview Assets.xcassets */; };
 		F4DDB4FE28A48D3E004CBFEB /* AcademicMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB4FD28A48D3E004CBFEB /* AcademicMLTests.swift */; };
 		F4DDB50828A48D3E004CBFEB /* AcademicMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB50728A48D3E004CBFEB /* AcademicMLUITests.swift */; };
 		F4DDB50A28A48D3E004CBFEB /* AcademicMLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB50928A48D3E004CBFEB /* AcademicMLUITestsLaunchTests.swift */; };
+		F4DDB51B28A48D95004CBFEB /* UIFFI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB51A28A48D95004CBFEB /* UIFFI.swift */; };
+		F4DDB51D28A48DA1004CBFEB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB51C28A48DA1004CBFEB /* String.swift */; };
+		F4DDB51F28A48DA9004CBFEB /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB51E28A48DA9004CBFEB /* UITextView.swift */; };
+		F4DDB52128A48DF1004CBFEB /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB52028A48DF1004CBFEB /* TextEditor.swift */; };
+		F4DDB52628A48E1B004CBFEB /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDB52528A48E1B004CBFEB /* UIFont.swift */; };
+		F4DDB52928A48EA8004CBFEB /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = F4DDB52828A48EA8004CBFEB /* Collections */; };
+		F4DDB52B28A48EA8004CBFEB /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = F4DDB52A28A48EA8004CBFEB /* DequeModule */; };
+		F4DDB52D28A48EA8004CBFEB /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = F4DDB52C28A48EA8004CBFEB /* OrderedCollections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +56,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F45D103828B1996700263FC2 /* HtmlCG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlCG.swift; sourceTree = "<group>"; };
+		F45D103A28B1A4DB00263FC2 /* CompilerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompilerData.swift; sourceTree = "<group>"; };
+		F472358428A876A300C7A44A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		F472358728A88D3E00C7A44A /* RefBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefBox.swift; sourceTree = "<group>"; };
+		F4831B8228B2FDDC00E9E7F0 /* CompilerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompilerAPI.swift; sourceTree = "<group>"; };
+		F4877F8628B2B49400C063BC /* LatexCG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatexCG.swift; sourceTree = "<group>"; };
+		F4877F8828B2B8B600C063BC /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		F49B99FB28A9742E009DA13B /* TextEditorMisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorMisc.swift; sourceTree = "<group>"; };
+		F49B99FF28AC2A3E009DA13B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F49B9A0128AC2CAB009DA13B /* MathUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtil.swift; sourceTree = "<group>"; };
+		F49B9A0928AD65C2009DA13B /* Frontend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frontend.swift; sourceTree = "<group>"; };
+		F49B9A0D28AD7136009DA13B /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		F49B9A0F28AD71CF009DA13B /* Highlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
+		F49B9A1328ADB1D1009DA13B /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		F4DDB4E628A48D3C004CBFEB /* AcademicML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcademicML.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DDB4E928A48D3C004CBFEB /* AcademicMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicMLApp.swift; sourceTree = "<group>"; };
+		F4DDB4E928A48D3C004CBFEB /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		F4DDB4EB28A48D3C004CBFEB /* AcademicMLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicMLDocument.swift; sourceTree = "<group>"; };
-		F4DDB4ED28A48D3C004CBFEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4DDB4EF28A48D3E004CBFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4DDB4F228A48D3E004CBFEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4DDB4F428A48D3E004CBFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +81,12 @@
 		F4DDB50328A48D3E004CBFEB /* AcademicMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcademicMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DDB50728A48D3E004CBFEB /* AcademicMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicMLUITests.swift; sourceTree = "<group>"; };
 		F4DDB50928A48D3E004CBFEB /* AcademicMLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicMLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4DDB51628A48D51004CBFEB /* AcademicML.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AcademicML.entitlements; sourceTree = "<group>"; };
+		F4DDB51A28A48D95004CBFEB /* UIFFI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFFI.swift; sourceTree = "<group>"; };
+		F4DDB51C28A48DA1004CBFEB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		F4DDB51E28A48DA9004CBFEB /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		F4DDB52028A48DF1004CBFEB /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
+		F4DDB52528A48E1B004CBFEB /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DDB52928A48EA8004CBFEB /* Collections in Frameworks */,
+				F4DDB52B28A48EA8004CBFEB /* DequeModule in Frameworks */,
+				F4DDB52D28A48EA8004CBFEB /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +117,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F45D103728B1995A00263FC2 /* CodeGen */ = {
+			isa = PBXGroup;
+			children = (
+				F45D103828B1996700263FC2 /* HtmlCG.swift */,
+				F4877F8628B2B49400C063BC /* LatexCG.swift */,
+			);
+			path = CodeGen;
+			sourceTree = "<group>";
+		};
+		F472358628A88D3500C7A44A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F472358728A88D3E00C7A44A /* RefBox.swift */,
+				F49B9A0128AC2CAB009DA13B /* MathUtil.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F4877F8A28B2B90C00C063BC /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F45D103A28B1A4DB00263FC2 /* CompilerData.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		F49B9A0828AD65B8009DA13B /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				F4877F8A28B2B90C00C063BC /* Misc */,
+				F45D103728B1995A00263FC2 /* CodeGen */,
+				F49B9A1128AD71E1009DA13B /* Frontend */,
+				F4877F8828B2B8B600C063BC /* Core.swift */,
+				F4831B8228B2FDDC00E9E7F0 /* CompilerAPI.swift */,
+			);
+			path = Compiler;
+			sourceTree = "<group>";
+		};
+		F49B9A1128AD71E1009DA13B /* Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				F49B9A0928AD65C2009DA13B /* Frontend.swift */,
+				F49B9A0D28AD7136009DA13B /* Parser.swift */,
+				F49B9A0F28AD71CF009DA13B /* Highlight.swift */,
+			);
+			path = Frontend;
+			sourceTree = "<group>";
+		};
 		F4DDB4DD28A48D3C004CBFEB = {
 			isa = PBXGroup;
 			children = (
+				F4DDB51728A48D64004CBFEB /* Lib */,
+				F4DDB52228A48DFE004CBFEB /* Source */,
 				F4DDB4E828A48D3C004CBFEB /* AcademicML */,
 				F4DDB4FC28A48D3E004CBFEB /* AcademicMLTests */,
 				F4DDB50628A48D3E004CBFEB /* AcademicMLUITests */,
@@ -97,9 +190,9 @@
 		F4DDB4E828A48D3C004CBFEB /* AcademicML */ = {
 			isa = PBXGroup;
 			children = (
-				F4DDB4E928A48D3C004CBFEB /* AcademicMLApp.swift */,
+				F4DDB51628A48D51004CBFEB /* AcademicML.entitlements */,
+				F4DDB4E928A48D3C004CBFEB /* Main.swift */,
 				F4DDB4EB28A48D3C004CBFEB /* AcademicMLDocument.swift */,
-				F4DDB4ED28A48D3C004CBFEB /* ContentView.swift */,
 				F4DDB4EF28A48D3E004CBFEB /* Assets.xcassets */,
 				F4DDB4F428A48D3E004CBFEB /* Info.plist */,
 				F4DDB4F128A48D3E004CBFEB /* Preview Content */,
@@ -132,6 +225,47 @@
 			path = AcademicMLUITests;
 			sourceTree = "<group>";
 		};
+		F4DDB51728A48D64004CBFEB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F472358628A88D3500C7A44A /* Data */,
+				F4DDB51928A48D88004CBFEB /* SwiftUI */,
+				F4DDB51828A48D79004CBFEB /* Extensions */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F4DDB51828A48D79004CBFEB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDB51C28A48DA1004CBFEB /* String.swift */,
+				F4DDB51E28A48DA9004CBFEB /* UITextView.swift */,
+				F4DDB52528A48E1B004CBFEB /* UIFont.swift */,
+				F472358428A876A300C7A44A /* Result.swift */,
+				F49B99FF28AC2A3E009DA13B /* UIColor.swift */,
+				F49B9A1328ADB1D1009DA13B /* Optional.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4DDB51928A48D88004CBFEB /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDB51A28A48D95004CBFEB /* UIFFI.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		F4DDB52228A48DFE004CBFEB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F49B9A0828AD65B8009DA13B /* Compiler */,
+				F4DDB52028A48DF1004CBFEB /* TextEditor.swift */,
+				F49B99FB28A9742E009DA13B /* TextEditorMisc.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +282,11 @@
 			dependencies = (
 			);
 			name = AcademicML;
+			packageProductDependencies = (
+				F4DDB52828A48EA8004CBFEB /* Collections */,
+				F4DDB52A28A48EA8004CBFEB /* DequeModule */,
+				F4DDB52C28A48EA8004CBFEB /* OrderedCollections */,
+			);
 			productName = AcademicML;
 			productReference = F4DDB4E628A48D3C004CBFEB /* AcademicML.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +359,9 @@
 				Base,
 			);
 			mainGroup = F4DDB4DD28A48D3C004CBFEB;
+			packageReferences = (
+				F4DDB52728A48EA8004CBFEB /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = F4DDB4E728A48D3C004CBFEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,8 +405,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DDB4EC28A48D3C004CBFEB /* AcademicMLDocument.swift in Sources */,
-				F4DDB4EA28A48D3C004CBFEB /* AcademicMLApp.swift in Sources */,
-				F4DDB4EE28A48D3C004CBFEB /* ContentView.swift in Sources */,
+				F45D103B28B1A4DB00263FC2 /* CompilerData.swift in Sources */,
+				F4DDB52128A48DF1004CBFEB /* TextEditor.swift in Sources */,
+				F4DDB51F28A48DA9004CBFEB /* UITextView.swift in Sources */,
+				F4877F8728B2B49400C063BC /* LatexCG.swift in Sources */,
+				F49B99FC28A9742E009DA13B /* TextEditorMisc.swift in Sources */,
+				F49B9A0E28AD7136009DA13B /* Parser.swift in Sources */,
+				F4DDB51B28A48D95004CBFEB /* UIFFI.swift in Sources */,
+				F49B9A1028AD71CF009DA13B /* Highlight.swift in Sources */,
+				F4DDB51D28A48DA1004CBFEB /* String.swift in Sources */,
+				F472358828A88D3E00C7A44A /* RefBox.swift in Sources */,
+				F49B9A0A28AD65C2009DA13B /* Frontend.swift in Sources */,
+				F4877F8928B2B8B600C063BC /* Core.swift in Sources */,
+				F49B9A1428ADB1D1009DA13B /* Optional.swift in Sources */,
+				F472358528A876A300C7A44A /* Result.swift in Sources */,
+				F49B9A0228AC2CAB009DA13B /* MathUtil.swift in Sources */,
+				F4831B8328B2FDDC00E9E7F0 /* CompilerAPI.swift in Sources */,
+				F49B9A0028AC2A3E009DA13B /* UIColor.swift in Sources */,
+				F4DDB4EA28A48D3C004CBFEB /* Main.swift in Sources */,
+				F4DDB52628A48E1B004CBFEB /* UIFont.swift in Sources */,
+				F45D103928B1996700263FC2 /* HtmlCG.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +582,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AcademicML/AcademicML.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AcademicML/Preview Content\"";
@@ -435,6 +596,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,9 +604,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.colbyn.AcademicML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -453,6 +616,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AcademicML/AcademicML.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AcademicML/Preview Content\"";
@@ -466,6 +630,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,9 +638,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.colbyn.AcademicML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -595,6 +761,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4DDB52728A48EA8004CBFEB /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4DDB52828A48EA8004CBFEB /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4DDB52728A48EA8004CBFEB /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		F4DDB52A28A48EA8004CBFEB /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4DDB52728A48EA8004CBFEB /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		F4DDB52C28A48EA8004CBFEB /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4DDB52728A48EA8004CBFEB /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4DDB4DE28A48D3C004CBFEB /* Project object */;
 }

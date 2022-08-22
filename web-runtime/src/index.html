@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<include src="src/header.html"></include>
+</head>
+<body>
+    <div id="1234"></div>
+    <script>
+        const element = document.getElementById('1234');
+        katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
+            throwOnError: false,
+            displayMode: true
+        });
+        katex.render("\\sin^2\\theta + \\cos^2\\theta = 1", element, {
+            throwOnError: false,
+            displayMode: true
+        });
+    </script>
+    <script type="module">import "./main.js";</script>
+</body>
+</html>
